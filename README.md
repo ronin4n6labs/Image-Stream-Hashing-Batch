@@ -1,19 +1,19 @@
-Image Stream Hashing Batch Script README
+# Image Stream Hashing Batch Script README
 
- Description:
+ ## Description:
  This batch script processes image files in a directory and generates stream hashes using ffmpeg.
  The resulting stream hash files are saved with the format 'filename_streamhash.txt'.
 
- Features:
+ ## Features:
  - Processes multiple image file formats (e.g., BMP, GIF, JPG, PNG, TIFF)
  - Generates stream hashes using ffmpeg
  - Saves stream hash files with informative filenames
 
- Installation:
+ ## Installation:
  1. Clone this repository to your local machine.
  2. Install ffmpeg (use version 6.0 or higher) if you haven't already.
 
- Usage:
+ ## Usage:
  To use the script, follow these steps:
 
  1. Place the script in the directory containing the image files you want to process.
@@ -21,7 +21,7 @@ Image Stream Hashing Batch Script README
  3. Navigate to the directory containing the script.
  4. Run the script using the command: img_stream_hashing_batch_script.bat
 
- Example:
+ ## Example:
  Suppose we have the following image files in the c:\tmp directory:
  - example.jpg
  - sample.png
